@@ -87,7 +87,7 @@
 
 			<div class="container">
 
-				<div class="span12 dashbox">
+				<div class="dashbox">
 					<ul class="nav nav-pills pull-left">
 						<li><a class="message alert" href="/dashboard/updates/">Updates <span>6</span></a></li>
 					</ul>
