@@ -28,7 +28,7 @@
 											<a href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-remove"></i></a>
 										</td>
 									</tr>
-									<tr class="error">
+									<tr class="danger">
 										<td>2</td>
 										<td>2013-06-22</td>
 										<td>Someone</td>
@@ -131,7 +131,7 @@
 										<td><span class="label label-warning"><i class="icon-exclamation"></i></span></td>
 										<td>New user <strong>BadGuy</strong> password failed.</td>
 									</tr>
-									<tr class="error">
+									<tr class="danger">
 										<td><span class="label label-danger"><i class="icon-exclamation"></i></span></td>
 										<td>IP <strong>1.2.3.4</strong> tried to log as admin (4 attempts).</td>
 									</tr>

@@ -89,11 +89,11 @@
 
 				<div class="dashbox">
 					<ul class="nav nav-pills pull-left">
-						<li><a class="message alert" href="/dashboard/updates/">Updates <span>6</span></a></li>
+						<li><a class="message btn-danger" href="/dashboard/updates/">Updates <span class="label label-danger">6</span></a></li>
 					</ul>
 					<ul class="nav nav-pills pull-right">
 						<li><a href="#">You have 2 notes awaiting.</a></li>
-						<li><a class="message success" href="#">New note <i class="icon-plus"></i></a></li>
+						<li><a class="message btn-success" href="#">New note <i class="icon-plus"></i></a></li>
 					</ul>
 				</div>
 

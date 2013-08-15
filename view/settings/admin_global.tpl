@@ -9,7 +9,7 @@
 
 					<ul class="nav nav-tabs">
 						<li class="active"><a href="#tab-essential" data-toggle="tab" class="text-center"><i class="icon-list-alt"></i> Essentials</a></li>
-						<li><a href="#tab-time" data-toggle="tab" class="text-center"><i class="icon-time"></i> Time and timeouts</a></li>
+						<li><a href="#tab-time" data-toggle="tab" class="text-center"><i class="icon-time"></i> Time &amp; timeouts</a></li>
 						<li><a href="#tab-display" data-toggle="tab" class="text-center"><i class="icon-desktop"></i> Display</a></li>
 						<li><a href="#tab-features" data-toggle="tab" class="text-center"><i class="icon-asterisk"></i> Features</a></li>
 						<li><a href="#tab-syndication" data-toggle="tab" class="text-center"><i class="icon-rss"></i> Syndication</a></li>

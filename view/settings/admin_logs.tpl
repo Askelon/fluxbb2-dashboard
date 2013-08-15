@@ -20,12 +20,12 @@
 										</tr>
 									</thead>
 									<tbody>
-										<tr class="error">
+										<tr class="danger">
 											<td><i class="icon-exclamation"></i></td>
 											<td>49 minutes ago</td>
 											<td class="activity_monitor_action"><a href="#">User</a> tried to log in to <a href="#">FluxBB</a>; password failed.</td>
 										</tr>
-										<tr class="error">
+										<tr class="danger">
 											<td><i class="icon-exclamation"></i></td>
 											<td>52 minutes ago</td>
 											<td class="activity_monitor_action"><a href="#">User</a> tried to log in to <a href="#">FluxBB</a>; password failed.</td>
