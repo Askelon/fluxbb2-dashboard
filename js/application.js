@@ -9,7 +9,7 @@
         if ( $(id).length > 0 ) {
             $('#navbar .nav > li').removeClass('active');
             $(this).addClass('active');
-            $('.subnav > .active').removeClass('active');
+            $('.subnavbar .active').removeClass('active');
             $(id+' > ul').parent('li').addClass('active');
             $(id+' > ul').show();
         }

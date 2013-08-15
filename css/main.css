@@ -1,7 +1,120 @@
+@import url(//fonts.googleapis.com/css?family=Telex);
 
 body {
-    background: #f2f2f2;
+	background: #f2f2f2;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4870A2;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #4870A2;
+	border: 0;
+	border-bottom: 4px solid #5F7FAA;
+	border-radius: 0;
+	margin-bottom: 0;
+	min-height: 48px;
+}
+.navbar-inner {
+	min-height: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.navbar .btn-navbar {
+	display: none;
+	float: right;
+	padding: 7px 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: white;
+	background-color: #2FA3E6;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.navbar-header {
+	padding: 0;
+}
+
+.navbar .navbar-brand {
+	background: #5F7FAA;
+	padding: 14px 20px 14px;
+	font-family: 'Telex', sans-serif;
+}
+.navbar .navbar-brand {
+	display: block;
+	float: left;
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+}
+
+.navbar .navbar-nav {
+	position: relative;
+	left: 0;
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.navbar .navbar-nav.pull-right {
+	float: right;
+	margin-right: 0;
+}
+
+.navbar-nav > li > a {
+	color: white;
+	float: none;
+	padding: 14px 15px 14px 15px;
+	text-decoration: none;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > .current > a,
+.navbar-nav > .current > a:hover,
+.navbar-nav > .current > a:focus,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+	color: white;
+	text-decoration: none;
+	background-color: #295183;
+}
+
+
+.subnavbar {
+	background-color: #2C3E50;
+	min-height: 48px;
+	line-height: 48px;
+}
+
+.subnavbar .navbar {
+	background: transparent;
+	border: 0;
+}
+
+.subnavbar .navbar-nav li:not(.active) .subnavbar-nav {
+	display: none;
+}
+
+.subnavbar-nav li {
+	list-style: none;
+}
+
+.subnavbar-nav li a:hover {
+	background-color: #ADB8C5 !important;
+	color: white;
+	padding: 16px 15px;
+}
+
+
+
 
 .intro {
     margin-top: 2em;
@@ -60,11 +173,12 @@ body {
 }
 
 .dashbox {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 0.25em;
-    margin: 0 0 1em 0;
-    padding: 0.75em 1em;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+	margin: 0 0 1em 0;
+	min-height: 64px;
+	padding: 0.75em 1em;
 }
 
 .span12.dashbox {
