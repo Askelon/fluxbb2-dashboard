@@ -15,12 +15,16 @@
 							<tr>
 								<th scope="row">Base new group on</th>
 								<td>
-									<p class="pull-right"><input type="submit" name="add_group" value="Add" class="btn btn-success"></p>
-									<select id="base_group" name="base_group">
-										<option value="2">Moderators</option>
-										<option value="4">Members</option>
-									</select>
 									<p>Select a user group from which the new group will inherit its permission settings. The next page will let you fine-tune its settings.</p>
+									<p class="pull-right"><input type="submit" name="add_group" value="Add" class="btn btn-success"></p>
+									<div class="form-inline">
+										<div class="form-group">
+											<select class="form-control" id="base_group" name="base_group">
+												<option value="2">Moderators</option>
+												<option value="4">Members</option>
+											</select>
+										</div>
+									</div>
 								</td>
 							</tr>
 						</tbody>
@@ -37,11 +41,16 @@
 							<tr>
 								<th scope="row">Default group</th>
 								<td>
-									<p class="pull-right"><input type="submit" name="add_group" value="Save" class="btn btn-success"></p>
-									<select id="default_group" name="default_group">
-										<option value="4">Members</option>
-									</select>
 									<p>This is the default user group, e.g. the group users are placed in when they register. For security reasons, users can't be placed in either the moderator or administrator user groups by default.</p>
+									<p class="pull-right"><input type="submit" name="add_group" value="Save" class="btn btn-success"></p>
+									<div class="form-inline">
+										<div class="form-group">
+											<select class="form-control" id="default_group" name="default_group">
+												<option value="4">Members</option>
+											</select>
+											
+										</div>
+									</div>
 								</td>
 							</tr>
 						</tbody>

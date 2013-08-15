@@ -106,15 +106,21 @@
 								</tr>
 								<tr>
 									<th scope="row">Maximum signature length</th>
-									<td>
-										<input type="text" name="form[sig_length]" size="5" maxlength="5" value="400">
+									<td class="form-inline">
+										<div class="form-group">
+											<label class="sr-only" for="sig_lines">Password</label>
+											<input type="text" class="form-control" name="form[sig_length]" size="5" maxlength="5" value="400">
+										</div>
 										<span class="clearb">The maximum number of characters a user signature may contain.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">Maximum signature lines</th>
-									<td>
-										<input type="text" name="form[sig_lines]" size="3" maxlength="3" value="4">
+									<td class="form-inline">
+										<div class="form-group">
+											<label class="sr-only" for="sig_lines">Password</label>
+											<input type="text" class="form-control" id="sig_lines" name="form[sig_lines]" size="3" maxlength="3" value="4">
+										</div>
 										<span class="clearb">The maximum number of lines a user signature may contain.</span>
 									</td>
 								</tr>

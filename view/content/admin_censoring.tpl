@@ -22,8 +22,8 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="tcl"><input type="text" /></td>
-                      <td class="tc2"><input type="text" /></td>
+                      <td class="tcl"><input class="form-control" type="text" /></td>
+                      <td class="tc2"><input class="form-control" type="text" /></td>
                       <td><a href="#" class="btn btn-success"><strong>Add new <i class="icon-plus"></i></strong></a></td>
                     </tr>
                   </tbody>
@@ -45,13 +45,13 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="tcl"><input type="text" value="Crap" /></td>
-                      <td class="tc2"><input type="text" value="c***" /></td>
+                      <td class="tcl"><input class="form-control" type="text" value="Crap" /></td>
+                      <td class="tc2"><input class="form-control" type="text" value="c***" /></td>
                       <td><a href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-remove"></i></a></td>
                     </tr>
                     <tr>
-                      <td class="tcl"><input type="text" value="bitch" /></td>
-                      <td class="tc2"><input type="text" value="b****" /></td>
+                      <td class="tcl"><input class="form-control" type="text" value="bitch" /></td>
+                      <td class="tc2"><input class="form-control" type="text" value="b****" /></td>
                       <td><a href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-remove"></i></a></td>
                     </tr>
                   </tbody>

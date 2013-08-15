@@ -15,11 +15,11 @@
 						<tbody>
 							<tr>
 								<th scope="row">Username</th>
-								<td><input type="text" name="form[username]"></td>
+								<td class="form-inline"><div class="form-group"><input class="form-control" type="text" name="form[username]"></div></td>
 							</tr>
 							<tr>
 								<th scope="row">Email address</th>
-								<td><input type="text" name="form[email]"></td>
+								<td class="form-inline"><div class="form-group"><input class="form-control" type="text" name="form[email]"></div></td>
 							</tr>
 							<tr>
 								<th scope="row">…</th>
@@ -27,7 +27,13 @@
 							</tr>
 							<tr>
 								<th scope="row">Last post is after</th>
-								<td><input type="datetime-local" name="last_post_after">
+								<td>
+									<div class="form-inline">
+										<div class="form-group">
+											<input class="form-control" type="datetime-local" name="last_post_after" />
+										</div>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<th scope="row">…</th>
@@ -35,29 +41,35 @@
 							</tr>
 							<tr>
 								<th scope="row">Order by</th>
-								<td>
-									<select name="order_by">
-										<option value="username" selected="selected">Username</option>
-										<option value="email">Email</option>
-										<option value="num_posts">Number of posts</option>
-										<option value="last_post">Last post</option>
-										<option value="last_visit">Last visit</option>
-										<option value="registered">Registered</option>
-									</select>
-									<select name="direction">
-										<option value="ASC" selected="selected">Ascending</option>
-										<option value="DESC">Descending</option>
-									</select>
+								<td class="form-inline">
+									<div class="form-group">
+										<select class="form-control" name="order_by">
+											<option value="username" selected="selected">Username</option>
+											<option value="email">Email</option>
+											<option value="num_posts">Number of posts</option>
+											<option value="last_post">Last post</option>
+											<option value="last_visit">Last visit</option>
+											<option value="registered">Registered</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<select class="form-control" name="direction">
+											<option value="ASC" selected="selected">Ascending</option>
+											<option value="DESC">Descending</option>
+										</select>
+									</div>
 								</td>
 							</tr>
 							<tr>
 								<th scope="row">User group</th>
-								<td>
-									<select name="user_group">
-										<option value="-1" selected="selected">All groups</option>
-										<option value="0">Unverified users</option>
-										<option value="1">Admins</option>
-									</select>
+								<td class="form-inline">
+									<div class="form-group">
+										<select class="form-control" name="user_group">
+											<option value="-1" selected="selected">All groups</option>
+											<option value="0">Unverified users</option>
+											<option value="1">Admins</option>
+										</select>
+									</div>
 								</td>
 							</tr>
 						</tbody>
