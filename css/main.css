@@ -91,6 +91,12 @@ tr.info {
 	border-left: 2px solid #3498db;
 }
 
+/** Container margin fix **/
+
+.row .row {
+	margin-right: 0;
+	margin-left: 0;
+}
 
 /** Navbar **/
 

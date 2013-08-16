@@ -78,15 +78,15 @@
 								<h4><strong>724</strong></h4>
 								<h5>Users</h5>
 							</div> <!-- /col-md-4 -->
-							<div class="col-md-4 text-center stats">
+							<div class="col-md-3 text-center stats">
 								<i class="icon-4x icon-signal"></i>
-							</div> <!-- /col-md-4 -->
-							<div class="col-md-8 text-center">
+							</div> <!-- /col-md-3 -->
+							<div class="col-md-9 text-center">
 								<ul class="nav nav-pills nav-stacked">
 									<li><a href="#">View forum statistics</a></li>
 									<li><a href="#">View server statistics</a></li>
 								</ul>
-							</div> <!-- /col-md-8 -->
+							</div> <!-- /col-md-9 -->
 						</div> <!-- /dashbox -->
 					</div> <!-- /dashbox-stats -->
 
